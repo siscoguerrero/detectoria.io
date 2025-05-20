@@ -8,10 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Detector de texto generado por IA</h1>
-        <textarea id="text-input" placeholder="Ingresa el texto a analizar..."></textarea>
-        <button id="analyze-btn">Analizar texto</button>
+        <h1><span class="icon">🤖</span> Detector de texto generado por IA</h1>
+        <div class="card input-card">
+            <label for="text-input">Texto a analizar</label>
+            <textarea id="text-input" placeholder="Ingresa el texto a analizar..."></textarea>
+            <button id="analyze-btn"><span class="icon">🔍</span> Analizar texto</button>
+        </div>
         <div id="results"></div>
+        <footer class="footer">Desarrollado por Detector de IA &copy; 2024</footer>
     </div>
     <script src="app.js"></script>
 </body>
